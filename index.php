@@ -33,14 +33,6 @@
        <div class="col s12 l2 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="connexion.php">Se connecter</a></p><a class="btn-small" id="quack">Click here</a></div>
      </div>
 
-
-     <!-- Partie du bouton poour remonter -->
-     <div class="fixed-action-btn">
-       <a class="btn-floating btn-large red" href="#Home">
-         <i class="large material-icons">north</i>
-       </a>
-     </div>
-
      <div class="row title_1">
         <h1 class="col s12 m12 l12"> ~ Portfolio ~</h1>
      </div>

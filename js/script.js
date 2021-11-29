@@ -1,9 +1,3 @@
-// Boutton de retour en haut de la page //
-
-$(document).ready(function(){
-    $('.fixed-action-btn').floatingActionButton();
-});
-
 // Bouton Nyan Cat//
 
 document.getElementById("cat").onclick = function() {Functioncat()};
