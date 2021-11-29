@@ -43,11 +43,11 @@
     </div>
 
     <div class="page-connexion">
-    
+
         <h3 class="col l2 s12 page-contact-title textTitle" id="contact">
             Se connecter
         </h3>
-        
+
         <div class="input-field col l3 s12 textinput">
             <input id="email" type="email" class="validate">
             <label for="email">email</label>
@@ -63,11 +63,11 @@
             <i class="material-icons right ">send</i>
         </button>
 
-        <a href="inscription.php">êtes-vous inscrit ?</a>
-    
-    
+        <a href="inscription.php">Vous n'avez pas de compte ? S'inscrire.</a>
+
+
     </div>
-        
+
         <!--JavaScript at end of body for optimized loading-->
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
