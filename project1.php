@@ -96,7 +96,7 @@
                         <div id="modal2" class="modal">
                             <div class="modal-content">
                                 <img src="pictures/bulldozer_à_reaction/backgroundpage1.jpg"
-                                    alt="Portfolio bulldo background full" width="1000">
+                                    alt="Portfolio bulldo background full" width="90%">
                             </div>
                             <div class="modal-footer">
                                 <a href="#!" class="modal-close btn-flat">Close</a>

@@ -102,7 +102,7 @@
                             carrés.</a>
                         <div id="modal1" class="modal">
                             <div class="modal-content">
-                                <img src="pictures/Carré_rouge/params.png" alt="Portfolio setting carré rouge" width="800">
+                                <img src="pictures/Carré_rouge/params.png" alt="Portfolio setting carré rouge" width="90%">
                             </div>
                             <div class="modal-footer">
                                 <a href="#!" class="modal-close btn-flat">Close</a>

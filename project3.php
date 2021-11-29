@@ -93,7 +93,7 @@
                     <div id="modal3" class="modal">
                         <div class="modal-content">
                             <img src="pictures/I.O.T_Système_Domotique/domotiquecarrousel9.png" alt="Portfolio image domotique 10"
-                                width="1000">
+                                width="90%">
                         </div>
                         <div class="modal-footer">
                             <a href="#!" class="modal-close btn-flat">Close</a>
