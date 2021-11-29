@@ -3,7 +3,6 @@ $(document).ready(function () {
     $('input#input_text, textarea#textarea2').characterCounter();
 });
 
-
 function Showpassword() {
   if (document.getElementById("showpasswordbutton").text=="visibility"){
     document.getElementById("showpasswordbutton").text="visibility_off";
