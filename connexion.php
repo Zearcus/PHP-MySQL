@@ -53,9 +53,10 @@
             <label for="email">email</label>
             <span class="helper-text" data-error="Email incorrect" data-success=""></span>
         </div>
-        <div class="input-field col l3 s12 textinput">
+        <div class="input-field col l3 s12 textinput showpassword">
             <input id="password" type="password">
             <label for="password">password</label>
+            <a href="#" id="showpasswordbutton" onclick="Showpassword()">visibility</a>
         </div>
 
         <button class="btn waves-effect waves-light col l1 s12 btncontact2" type="submit" name="action">Connexion

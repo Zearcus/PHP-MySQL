@@ -39,6 +39,12 @@ p{
   margin-right: 40%;
 }
 
+.showpassword a{
+  font-family: "Material Icons";
+  font-size: 150%;
+  color:white;
+}
+
 .textconnexion{
   margin-top: 8%;
   margin-left: 40%;
