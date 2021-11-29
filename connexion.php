@@ -50,12 +50,12 @@
 
             <div class="input-field col l3 s12 textinput">
                 <input id="email" type="email" name="email" class="validate">
-                <label for="email">email</label>
+                <label for="email">Email</label>
                 <span class="helper-text" data-error="Email incorrect" data-success=""></span>
             </div>
             <div class="input-field col l3 s12 textinput showpassword">
                 <input id="password" name="password" type="password">
-                <label for="password">password</label>
+                <label for="password">Password</label>
                 <a href="#" id="showpasswordbutton" onclick="Showpassword()">visibility</a>
             </div>
 
