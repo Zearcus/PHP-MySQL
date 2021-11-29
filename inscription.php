@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
     <title>Portfolio</title>
@@ -43,37 +43,37 @@
         </div>
     </div>
 
-
     <div class="page-inscription">
+    
+        <form action="signup.php" method="post">
+            <h3 class="col l2 s12 page-contact-title textTitle" id="contact">
+                Inscription
+            </h3>
+            <a href="connexion.php" class="textconnexion">Tu as déjà un compte ?</a>
 
-        <h3 class="col l2 s12 page-contact-title textTitle" id="contact">
-            Inscription
-        </h3>
-        <a href="connexion.php" class="textconnexion">Tu as déjà un compte ?</a>
+            <div class="input-field col l3 s12 textinput">
+                <textarea id="textarea1" name="first_name" class="materialize-textarea"></textarea>
+                <label for="textarea1">first_name</label>
+            </div>
+            <div class="input-field col l3 s12 textinput">
+                <textarea id="textarea1" name="last_name" class="materialize-textarea"></textarea>
+                <label for="textarea1">last_name</label>
+            </div>
+            <div class="input-field col l3 s12 textinput">
+                <input id="email" type="email" name="email" class="validate">
+                <label for="email">email</label>
+                <span class="helper-text" data-error="Email incorrect" data-success=""></span>
+            </div>
+            <div class="input-field col l3 s12 textinput">
+                <input id="password" name="password" type="password">
+                <label for="password">password</label>
+            </div>
+            <button class="btn waves-effect waves-light col l1 s12 btncontact2" type="submit" name="action">Créer un compte
+                <i class="material-icons right ">send</i>
+            </button>
 
-        <div class="input-field col l3 s12 textinput">
-            <textarea id="textarea1" class="materialize-textarea"></textarea>
-            <label for="textarea1">prénom</label>
-        </div>
-        <div class="input-field col l3 s12 textinput">
-            <textarea id="textarea1" class="materialize-textarea"></textarea>
-            <label for="textarea1">nom</label>
-        </div>
-        <div class="input-field col l3 s12 textinput">
-            <input id="email" type="email" class="validate">
-            <label for="email">email</label>
-            <span class="helper-text" data-error="Email incorrect" data-success=""></span>
-        </div>
-        <div class="input-field col l3 s12 textinput">
-            <input id="password" type="password">
-            <label for="password">password</label>
-        </div>
-        <button class="btn waves-effect waves-light col l1 s12 btncontact2" type="submit" name="action">Créer un compte
-            <i class="material-icons right ">send</i>
-        </button>
-
-        <a>Mot de passe oublié ?</a>
-
+            <a>Mot de passe oublié ?</a>
+        </form>
     </div>
 
     <!--JavaScript at end of body for optimized loading-->
