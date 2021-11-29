@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <title>Portfolio</title>
@@ -45,7 +45,7 @@
 
 
     <div class="page-inscription">
-    
+
         <h3 class="col l2 s12 page-contact-title textTitle" id="contact">
             Inscription
         </h3>
@@ -73,7 +73,7 @@
         </button>
 
         <a>Mot de passe oublié ?</a>
-    
+
     </div>
 
     <!--JavaScript at end of body for optimized loading-->

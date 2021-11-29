@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang="fr" >
+ <html lang="fr">
     <head>
       <title>Portfolio</title>
       <meta charset="utf-8">
@@ -41,10 +41,10 @@
        </a>
      </div>
 
-     <div class="row title_1"> 
+     <div class="row title_1">
         <h1 class="col s12 m12 l12"> ~ Portfolio ~</h1>
      </div>
-    
+
 
       <!-- page de présentation de l'équipe -->
         <div class="team" id="team">
@@ -100,7 +100,7 @@
            </form>
 
         </div>
-     
+
       <!-- présentation de la page de contact  -->
         <!-- Modal Trigger -->
         <button data-target="modal1" class="btn modal-trigger btncontact">Nous Contacter</button>
@@ -108,7 +108,7 @@
         <div id="modal1" class="modal ">
           <div class="modal-content">
             <div class="page-contact">
-              
+
                 <h3 class="col l2 m2 s12 page-contact-title" id="contact">
                 Contact
                 </h3>
@@ -128,8 +128,8 @@
                 <button class="btn waves-effect waves-light col l1 m2 s12 btncontact2" type="submit" name="action">Envoyer
                   <i class="material-icons right ">send</i>
                 </button>
-              
-      
+
+
           </div>
         </div>
         <div class="modal-footer">
@@ -156,6 +156,6 @@
      <script type="text/javascript" src="js/jquery.js"></script>
      <script type="text/javascript" src="js/materialize.min.js"></script>
      <script type="text/javascript" src="js/script.js"></script>
-     
+
     </body>
   </html>
