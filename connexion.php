@@ -43,29 +43,29 @@
     </div>
 
     <div class="page-connexion">
+        <form method="post" action="login.php">
+            <h3 class="col l2 s12 page-contact-title textTitle" id="contact">
+                Se connecter
+            </h3>
 
-        <h3 class="col l2 s12 page-contact-title textTitle" id="contact">
-            Se connecter
-        </h3>
+            <div class="input-field col l3 s12 textinput">
+                <input id="email" type="email" name="email" class="validate">
+                <label for="email">email</label>
+                <span class="helper-text" data-error="Email incorrect" data-success=""></span>
+            </div>
+            <div class="input-field col l3 s12 textinput showpassword">
+                <input id="password" name="password" type="password">
+                <label for="password">password</label>
+                <a href="#" id="showpasswordbutton" onclick="Showpassword()">visibility</a>
+            </div>
 
-        <div class="input-field col l3 s12 textinput">
-            <input id="email" type="email" class="validate">
-            <label for="email">email</label>
-            <span class="helper-text" data-error="Email incorrect" data-success=""></span>
-        </div>
-        <div class="input-field col l3 s12 textinput showpassword">
-            <input id="password" type="password">
-            <label for="password">password</label>
-            <a href="#" id="showpasswordbutton" onclick="Showpassword()">visibility</a>
-        </div>
-
-        <button class="btn waves-effect waves-light col l1 s12 btncontact2" type="submit" name="action">Connexion
+            <button class="btn waves-effect waves-light col l1 s12 btncontact2" type="submit" name="action">Connexion
             <i class="material-icons right ">send</i>
-        </button>
+            </button>
 
-        <a href="inscription.php">Vous n'avez pas de compte ? S'inscrire.</a>
+            <a href="inscription.php">Vous n'avez pas de compte ? S'inscrire.</a>
 
-
+        </form>
     </div>
 
         <!--JavaScript at end of body for optimized loading-->
