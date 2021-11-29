@@ -11,5 +11,10 @@ $dataBinded=array(
 $pre = $pdo->prepare($sql);
 $pre->execute($dataBinded);
 
-header('Location:index.php');//on le redirige sur la page d'accueil du site !
+if(empty($user)){ //vérifie si le resultat est vide !
+     //non connecté
+      header('Location:inscription.php');
+}else{
+     header('Location:index.php');
+}
 ?>
