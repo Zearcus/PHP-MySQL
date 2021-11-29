@@ -13,7 +13,7 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
+
             <!--Let browser know website is optimized for mobile-->
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </head>
@@ -43,24 +43,24 @@
             </div>
 
             <div class="domotique">
-            
+
                 <div class="parallax-container">
                     <div class="parallax">
                         <img src="pictures/I.O.T_Système_Domotique/backgroundomotique.jpg" alt="Portfolio background domotique ">
                     </div>
                 </div>
-            
+
                 <form class="row">
-            
+
                     <div class="text  col l4 s12 textdomotique">
-                        
+
                         <h2 class="description_domotique">I.O.T Système Domotique</h2>
                         <p>J'ai effectué mon projet au lycée Pierre De Coubertin, le but de ce projet est d'automatiser une maison
                             domotique. <br>
                             Les images vous montrerons l'installation de ma partie dans ce projet avec une partie de programmation
                             en python avec une rapsberry PI3B+.</p>
                     </div>
-            
+
                     <div class="carousel col l4 s12">
                         <a class="carousel-item" href="#one!"><img src="pictures/I.O.T_Système_Domotique/domotiquecarrousel1.jpg"
                                 alt="Portfolio image domotique 1"></a>
@@ -79,7 +79,7 @@
                         <a class="carousel-item" href="#eight!"><img src="pictures/I.O.T_Système_Domotique/domotiquecarrousel8.png"
                                 alt="Portfolio image domotique 9"></a>
                     </div>
-            
+
                     <div class="text col l4 s12 textdomotique">
 
                         <h2 class="description_domotique">Description</h2>
@@ -88,8 +88,8 @@
                             voir si les lampes fonctionnent bien de nuit et que de jour, elles ne s'allument pas mais se rechargent
                             pour pouvoir fonctionner de nuit.</p>
                     </div>
-            
-                    <a class="modal-trigger" href="#modal3">Cliquer ici pour afficher présentation du projet en mode simulation</a>
+
+                    <a class="modal-trigger" href="#modal3">Cliquer ici pour afficher la présentation du projet en mode simulation</a>
                     <div id="modal3" class="modal">
                         <div class="modal-content">
                             <img src="pictures/I.O.T_Système_Domotique/domotiquecarrousel9.png" alt="Portfolio image domotique 10"
@@ -99,9 +99,9 @@
                             <a href="#!" class="modal-close btn-flat">Close</a>
                         </div>
                     </div>
-            
+
                 </form>
-            
+
             </div>
 
             <!-- Modal Trigger -->
@@ -110,7 +110,7 @@
             <div id="modal1" class="modal">
                 <div class="modal-content">
                     <div class="page-contact">
-                        
+
                             <h3 class="col l2 m2 s12 page-contact-title">
                                 Contact
                             </h3>
@@ -130,20 +130,20 @@
                             <button class="btn waves-effect waves-light col l1 m4 s12 btncontact2" type="submit" name="action">Envoyer
                                 <i class="material-icons right ">send</i>
                             </button>
-                        
-            
+
+
                     </div>
                 </div>
                 <div class="modal-footer">
                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
                 </div>
             </div>
-            
+
             <script type="text/javascript" src="js/jquery.js"></script>
             <script type="text/javascript" src="js/materialize.min.js"></script>
             <script type="text/javascript" src="js/project3.js"></script>
 
         </body>
-        
+
 
     </html>
