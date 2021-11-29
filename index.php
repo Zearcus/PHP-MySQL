@@ -108,32 +108,31 @@
         <div id="modal1" class="modal ">
           <div class="modal-content">
             <div class="page-contact">
-
+              <form action="mail.php" method="post">
                 <h3 class="col l2 m2 s12 page-contact-title" id="contact">
                 Contact
                 </h3>
                 <div class="input-field col l3 m2 s12 textinput">
-                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <textarea id="textarea1" name="first_name" class="materialize-textarea"></textarea>
                   <label for="textarea1">Prénom</label>
                 </div>
                 <div class="input-field col l3 m2 s12 textinput">
-                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <textarea id="textarea1" name="last_name" class="materialize-textarea"></textarea>
                   <label for="textarea1">Nom</label>
                 </div>
                 <div class="input-field col l3 m2 s12 textinput">
-                  <input id="email" type="email" class="validate">
+                  <input id="email" type="email" name="email" class="validate">
                   <label for="email">Email</label>
                   <span class="helper-text" data-error="Email incorrect" data-success=""></span>
                </div>
                <div class="input-field col l3 m2 s12 textinput">
-                 <textarea id="textarea1" class="materialize-textarea"></textarea>
+                 <textarea id="textarea1" name="subject" class="materialize-textarea"></textarea>
                  <label for="textarea1">Sujet</label>
               </div>
                 <button class="btn waves-effect waves-light col l1 m2 s12 btncontact2" type="submit" name="action">Envoyer
                   <i class="material-icons right ">send</i>
                 </button>
-
-
+              </form>
           </div>
         </div>
         <div class="modal-footer">
@@ -162,4 +161,4 @@
      <script type="text/javascript" src="js/script.js"></script>
 
     </body>
-  </html> 
+  </html>
