@@ -3,7 +3,7 @@ html{
 }
 
 body{
- background-color: rgb(48, 72, 97);    
+ background-color: rgb(48, 72, 97);
 }
 
 .menu .btn-small{
@@ -34,15 +34,15 @@ p{
 .textTitle{
   text-shadow: 5px 5px 5px gray;
   color: aliceblue;
-  margin-top: 8%;    
+  margin-top: 8%;
   margin-left: 40%;
-  margin-right: 40%;    
+  margin-right: 40%;
 }
 
 .textconnexion{
-  margin-top: 8%;    
+  margin-top: 8%;
   margin-left: 40%;
-  margin-right: 40%;  
+  margin-right: 40%;
 }
 
 .textinput{
