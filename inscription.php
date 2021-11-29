@@ -17,7 +17,7 @@
 </head>
 
 <body>
-
+    <!-- partie du menu -->
     <div class="row menu" id="Home">
         <div class="col s12 l2 green darken-1 blue-text text-darken-3 z-depth-5">
             <p>
@@ -45,7 +45,7 @@
 
 
     <div class="page-inscription">
-
+    
         <h3 class="col l2 s12 page-contact-title textTitle" id="contact">
             Inscription
         </h3>
@@ -53,28 +53,27 @@
 
         <div class="input-field col l3 s12 textinput">
             <textarea id="textarea1" class="materialize-textarea"></textarea>
-            <label for="textarea1">Prénom</label>
+            <label for="textarea1">prénom</label>
         </div>
         <div class="input-field col l3 s12 textinput">
             <textarea id="textarea1" class="materialize-textarea"></textarea>
-            <label for="textarea1">Nom</label>
+            <label for="textarea1">nom</label>
         </div>
         <div class="input-field col l3 s12 textinput">
             <input id="email" type="email" class="validate">
-            <label for="email">Email</label>
+            <label for="email">email</label>
             <span class="helper-text" data-error="Email incorrect" data-success=""></span>
         </div>
         <div class="input-field col l3 s12 textinput">
-            <input id="email" type="email" class="validate">
-            <label for="email">password</label>
-            <span class="helper-text" data-error="Email incorrect" data-success=""></span>
+            <input id="password" type="password">
+            <label for="password">password</label>
         </div>
         <button class="btn waves-effect waves-light col l1 s12 btncontact2" type="submit" name="action">Créer un compte
             <i class="material-icons right ">send</i>
         </button>
 
         <a>Mot de passe oublié ?</a>
-
+    
     </div>
 
     <!--JavaScript at end of body for optimized loading-->
