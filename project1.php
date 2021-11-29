@@ -14,11 +14,11 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
+
             <!--Let browser know website is optimized for mobile-->
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </head>
-        
+
         <body>
 
             <div class="row menu" id="Home">
@@ -45,17 +45,17 @@
                         here</a>
                 </div>
             </div>
-        
+
             <div class="bulldo">
-        
+
                 <div class="parallax-container">
                     <div class="parallax">
                         <img src="./pictures/bulldozer_à_reaction/backgroundpage1.jpg" alt="Portfolio bulldo background">
                     </div>
                 </div>
-        
+
                 <form class="row">
-        
+
                     <div class="text  col l4 s12 textbulldo1">
                         <h3>La BulldoCorp Ltd.®</h3>
                         <h4>Description des photos :</h4>
@@ -63,7 +63,7 @@
                             le Bulldozer à reaction agricole, le Bulldozer à reaction de chasse, le Bulldozer
                             à reaction mode émeute.</p>
                     </div>
-        
+
                     <div class="carousel col l4 s12">
                         <a class="carousel-item" href="#one!"><img
                                 src="pictures/bulldozer_à_reaction/bulldozer_à_réaction_normal.png"
@@ -78,7 +78,7 @@
                                 src="pictures/bulldozer_à_reaction/bulldozer_à_réaction_émeute.png"
                                 alt="Portfolio image bulldo 4"></a>
                     </div>
-        
+
                     <div class="text col l4 s12 textbulldo2">
                         <h3>Description :</h3>
                         <p>Créée à l'occasion d'un projet d'anglais, la BulldoCorp Ltd.® est une société imaginaire vendant un
@@ -112,7 +112,7 @@
             <div id="modal1" class="modal gg2">
                 <div class="modal-content gg">
                     <div class="page-contact">
-                        
+
                             <h3 class="col l2 m2 s12 page-contact-title">
                                 Contact
                             </h3>
@@ -129,25 +129,27 @@
                                 <label for="email">Email</label>
                                 <span class="helper-text" data-error="Email incorrect" data-success=""></span>
                             </div>
+                            <div class="input-field col l3 m2 s12 textinput">
+                              <textarea id="textarea1" class="materialize-textarea"></textarea>
+                              <label for="textarea1">Sujet</label>
+                           </div>
                             <button class="btn waves-effect waves-light col l1 m4 s12 btncontact2" type="submit" name="action">Envoyer
                                 <i class="material-icons right ">send</i>
                             </button>
-                        
-                    
+
+
                     </div>
                 </div>
                 <div class="modal-footer">
                     <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
                 </div>
             </div>
-        
+
             <!--JavaScript at end of body for optimized loading-->
             <script type="text/javascript" src="./js/jquery.js"></script>
             <script type="text/javascript" src="./js/materialize.min.js"></script>
             <script type="text/javascript" src="./js/project1.js"></script>
-        
+
         </body>
 
     </html>
-
-    
