@@ -64,7 +64,7 @@
                 <label for="email">email</label>
                 <span class="helper-text" data-error="Email incorrect" data-success=""></span>
             </div>
-            <div class="input-field col l3 s12 textinput">
+            <div class="input-field col l3 s12 textinput showpassword">
                 <input id="password" name="password" type="password">
                 <label for="password">password</label>
                 <a href="#" id="showpasswordbutton" onclick="Showpassword()">visibility</a>
