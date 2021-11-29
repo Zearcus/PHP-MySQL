@@ -45,11 +45,11 @@
 
 
     <div class="page-inscription">
-    
+
         <h3 class="col l2 s12 page-contact-title textTitle" id="contact">
             Inscription
         </h3>
-        <a href="connexion.php" class="textconnexion">Tu as déjà une compte ?</a>
+        <a href="connexion.php" class="textconnexion">Tu as déjà un compte ?</a>
 
         <div class="input-field col l3 s12 textinput">
             <textarea id="textarea1" class="materialize-textarea"></textarea>
@@ -74,7 +74,7 @@
         </button>
 
         <a>Mot de passe oublié ?</a>
-    
+
     </div>
 
     <!--JavaScript at end of body for optimized loading-->
