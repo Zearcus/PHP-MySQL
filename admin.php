@@ -19,8 +19,3 @@
    <?php } ?>
   </body>
  </html>
- 
- /*
- On a une page HTML générée avec des données depuis de notre base de données !
- C'est stylé !
- */
