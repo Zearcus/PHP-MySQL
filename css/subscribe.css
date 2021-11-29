@@ -1,0 +1,55 @@
+html{
+  font-family: 'Courgette', cursive;
+}
+
+body{
+ background-color: rgb(48, 72, 97);    
+}
+
+.menu .btn-small{
+  float: right;
+  margin-top: -42px;
+  opacity: 0%;
+}
+
+.row{
+  margin: 0;
+}
+
+.menu p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  text-shadow: #000000 5px 5px 5px;
+}
+
+p{
+  margin:0;
+}
+
+.row .title_1{
+  margin: 0;
+}
+
+.textTitle{
+  text-shadow: 5px 5px 5px gray;
+  color: aliceblue;
+  margin-top: 8%;    
+  margin-left: 40%;
+  margin-right: 40%;    
+}
+
+.textconnexion{
+  margin-top: 8%;    
+  margin-left: 40%;
+  margin-right: 40%;  
+}
+
+.textinput{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.btncontact2{
+  margin-left: 42%;
+}

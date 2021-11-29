@@ -1,0 +1,143 @@
+html{
+  scroll-behavior: smooth;
+  font-family: 'Courgette', cursive;
+}
+
+.menu .btn-small{
+  float: right;
+  margin-top: -42px;
+  opacity: 0%;
+}
+
+.row{
+  margin: 0;
+}
+
+.menu p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  text-shadow: #000000 5px 5px 5px;
+}
+
+p{
+  margin:0;
+}
+
+.row .title_1{
+  margin: 0;
+}
+
+h1{
+  font-size: 60px;
+}
+
+
+
+
+/* page de présentation */
+.team{
+  min-height: 400px;
+  padding: 15px;
+}
+
+.keken{
+  opacity: 0% !important;
+  float: right;
+}
+
+.team .modal h4{
+  font-size: 200%;
+}
+
+.team .btn-small{
+  opacity: 5%;
+}
+
+.team .row .prestext h5{
+  font-size: 150%;
+}
+
+.team .row .prestext p{
+  font-size: 100%;
+}
+
+.team .row img{
+  border-radius: 10%
+}
+
+.team .row figcaption{
+  font-size: 125%;
+}
+
+.fabien{
+  text-align: left;
+  padding-right: 50%;
+}
+
+.team .fabien .textfabien{
+  padding-left: 7%;
+}
+
+.thomas{
+  text-align: right;
+}
+
+.screamer{
+  min-width: 100%;
+  min-height: 100%;
+  left: 0%;
+  bottom: 10%;
+}
+
+
+/* page de contact */
+.page-contact{
+  background-color: rgb(48, 72, 97);
+  min-height: 300px;
+}
+
+.page-contact .page-contact-title{
+  text-shadow: 5px 5px 5px gray;
+  color: aliceblue;
+  margin-left: 40%;
+}
+
+.textinput{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.btncontact{
+  margin-left: 47%;
+}
+
+.btncontact2{
+  margin-left: 42%;
+}
+
+.myclass{
+  padding-top: 7%;
+}
+
+div.jsp{
+  padding: 20%;
+}
+
+/* partie easter egg */
+.easter-egg{
+  height: 30px;
+}
+
+.easter-egg a{
+  float:right;
+  opacity: 0%;
+}
+
+.easter-egg a:hover{
+  opacity: 100%;
+}
+
+.easter-egg a:visited{
+  opacity: 100%;
+}

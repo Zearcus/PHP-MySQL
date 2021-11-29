@@ -1,0 +1,67 @@
+html{
+  font-family: 'Courgette', cursive;
+}
+
+
+.menu .btn-small{
+  float: right;
+  margin-top: -42px;
+  opacity: 0%;
+}
+
+.row{
+  margin: 0;
+}
+
+.menu p{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  text-shadow: #000000 5px 5px 5px;
+}
+
+p{
+  margin:0;
+}
+
+.row .title_1{
+  margin: 0;
+}
+
+.carre .row .textcarre1{
+  padding-left: 15px;
+}
+
+.carre .row .textcarre2{
+  padding-right: 15px;
+}
+
+/* page de contact */
+.page-contact{
+  background-color: rgb(48, 72, 97);
+  min-height: 300px;
+}
+
+.page-contact .page-contact-title{
+  text-shadow: 5px 5px 5px gray;
+  color: aliceblue;
+  margin-left: 40%;
+}
+
+
+.myclass{
+  padding-top: 7%;
+}
+
+.textinput{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.btncontact{
+  margin-left: 47%;
+}
+
+.btncontact2{
+  margin-left: 42%;
+}
