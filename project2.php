@@ -1,3 +1,4 @@
+<?php require_once "config.php"; ?>
 <!DOCTYPE html>
     <html>
         <head>
@@ -21,27 +22,7 @@
 
         <body>
 
-            <div class="row menu" id="Home">
-                <div class="col s12 l2 green darken-1 blue-text text-darken-3 z-depth-5">
-                    <p><a href="index.php" class="blue-text text-lighten-2">Home</a></p><a class="btn-small" id="cat">Click here</a>
-                </div>
-                <div class="col s12 l2 green darken-1 z-depth-5">
-                    <p><a class="blue-text text-darken-2" href="index.php">Team</a></p>
-                </div>
-                <div class="col s12 l2 green darken-1 z-depth-5">
-                    <p><a class="blue-text text-lighten-2" href="project1.php">La BulldoCorp Ltd.®</a></p>
-                </div>
-                <div class="col s12 l2 green darken-2 z-depth-5">
-                    <p><a class="blue-text text-lighten-2" href="project2.php">Carré Rouge en Python</a></p>
-                </div>
-                <div class="col s12 l2 green darken-3 z-depth-5">
-                    <p><a class="blue-text text-lighten-1" href="project3.php">I.O.T Système Domotique</a></p>
-                </div>
-                <div class="col s12 l2 green darken-4 z-depth-5">
-                    <p><a class="blue-text text-lighten-2" href="connexion.php">Se connecter</a></p><a class="btn-small" id="quack">Click
-                        here</a>
-                </div>
-            </div>
+            <?php require_once "menu.php" ?>
 
             <div class="carre" id="Carré">
                 <div class="parallax-container">
