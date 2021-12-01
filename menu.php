@@ -25,7 +25,7 @@
             <p>
             <a class="blue-text text-lighten-2" href="index.php">Home</a>
             </p>
-            <a class="btn-small" id="cat">Click here</a></div>
+            <a class="btn-small" id="cat">cat</a></div>
         <div class="col s12 l2 green darken-1 z-depth-5">
             <p><a class="blue-text text-lighten-2" href="#team">Team</a></p></div>
         <div class="col s12 l2 green darken-1 z-depth-5"><p><a class="blue-text text-lighten-2" href="project1.php">La BulldoCorp Ltd.®</a></p></div>

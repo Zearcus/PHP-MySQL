@@ -21,7 +21,7 @@
         <body>
 
             <?php require_once "menu.php" ?>
-
+            
             <div class="bulldo">
 
                 <div class="parallax-container">
@@ -124,7 +124,7 @@
             <script type="text/javascript" src="./js/jquery.js"></script>
             <script type="text/javascript" src="./js/materialize.min.js"></script>
             <script type="text/javascript" src="./js/project1.js"></script>
-
+           
         </body>
 
     </html>
