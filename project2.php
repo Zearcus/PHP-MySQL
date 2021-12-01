@@ -115,8 +115,8 @@
                           <span class="helper-text" data-error="Email incorrect" data-success=""></span>
                        </div>
                        <div class="input-field col l3 m2 s12 textinput">
-                         <textarea id="textarea1" name="subject" class="materialize-textarea"></textarea>
-                         <label for="textarea1">Sujet</label>
+                         <textarea id="textarea1" name="message" class="materialize-textarea"></textarea>
+                         <label for="textarea1">Message</label>
                       </div>
                         <button class="btn waves-effect waves-light col l1 m2 s12 btncontact2" type="submit" name="action">Envoyer
                           <i class="material-icons right ">send</i>
