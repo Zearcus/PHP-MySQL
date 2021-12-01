@@ -34,12 +34,12 @@
         <?php if (isset($_SESSION['user'])): ?>
             <?php if ($_SESSION['user']['is_admin']==1): ?>
                         <div class="col s12 l1 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="admin.php">Admin</a></p></div>
-                        <div class="col s12 l2 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="logout.php">Se déconnecter de <?php echo $_SESSION['user']['first_name']?></a></p><a class="btn-small" id="quack">Click here</a></div>
+                        <div class="col s12 l2 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="logout.php">Se déconnecter de <?php echo $_SESSION['user']['first_name']?></a></p><a class="btn-small" id="quack">quack</a></div>
                         <?php else: ?>
-                        <div class="col s12 l3 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="logout.php">Se déconnecter de <?php echo $_SESSION['user']['first_name']?></a></p><a class="btn-small" id="quack">Click here</a></div>
+                        <div class="col s12 l3 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="logout.php">Se déconnecter de <?php echo $_SESSION['user']['first_name']?></a></p><a class="btn-small" id="quack">quack</a></div>
                         <?php endif; ?>
             <?php else: ?>
-            <div class="col s12 l3 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="connexion.php">Se connecter</a></p><a class="btn-small" id="quack">Click here</a></div>
+            <div class="col s12 l3 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="connexion.php">Se connecter</a></p><a class="btn-small" id="quack">quack</a></div>
             <?php endif; ?>
         </div>
         <!--JavaScript at end of body for optimized loading-->

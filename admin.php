@@ -35,7 +35,7 @@
         <p><?php echo $_POST['text_jsp'] ?></p>
 
       </div>
-    
+
 
 
   </body>
