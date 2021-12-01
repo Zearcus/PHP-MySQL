@@ -18,8 +18,8 @@
      <h2><?php echo $user['first_name']." ".$user['last_name'] ?></h2>
      <span class="email"><?php echo $user['email']." - User_ id : ".$user['id'] ?></span>
      <form action="delete.php" method="post">
-        <input type="id" name="delete_id" class="validate" value="<?php echo $user['id']; ?>">
-        <button type="submit" name="d_button"> delete </button>
+        <input type="hidden" name="last_name" class="validate" value="<?php echo $user['last_name']; ?>">
+        <button type="submit" name="delete_btn"> delete </button>
       </form>
    </div>
    <?php } ?>
