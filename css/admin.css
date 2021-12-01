@@ -1,0 +1,9 @@
+h2{
+    font-size: 10px;
+}
+
+.page-contact .page-contact-title{
+  text-shadow: 5px 5px 5px gray;
+  color: aliceblue;
+  margin-left: 40%;
+}

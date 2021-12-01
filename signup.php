@@ -13,8 +13,6 @@ $pre->execute($dataBinded);
 
 if(empty($user)){ //vérifie si le resultat est vide !
      //non connecté
-      header('Location:inscription.php');
-}else{
-     header('Location:index.php');
+      header('Location:connexion.php');
 }
 ?>

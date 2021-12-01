@@ -13,6 +13,8 @@ if(empty($user)){ //vérifie si le resultat est vide !
      if($_SESSION['user']['is_admin']==1){
           header('Location:admin.php');
      }
+     else{
      header('Location:index.php');
+     }
 }
 ?>
