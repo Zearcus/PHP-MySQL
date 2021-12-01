@@ -33,8 +33,8 @@
         <div class="col s12 l2 green darken-3 z-depth-5"><p><a class="blue-text text-lighten-1" href="project3.php">I.O.T Système Domotique</a></p></div>
         <?php if (isset($_SESSION['user'])): ?>
             <?php if ($_SESSION['user']['is_admin']==1): ?>
-                        <div class="col s12 l1 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="admin.php">Admin</a></p><a class="btn-small" id="quack">Click here</a></div>
-                        <div class="col s12 l2 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="logout.php">Se déconnecter</a></p><a class="btn-small" id="quack">Click here</a></div>
+                        <div class="col s12 l1 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="admin.php">Admin</a></p></div>
+                        <div class="col s12 l2 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="logout.php">Se déconnecter de <?php echo $_SESSION['user']['first_name']?></a></p><a class="btn-small" id="quack">Click here</a></div>
                         <?php else: ?>
                         <div class="col s12 l3 green darken-4 z-depth-5"><p><a class="blue-text text-lighten-2" href="logout.php">Se déconnecter</a></p><a class="btn-small" id="quack">Click here</a></div>
                         <?php endif; ?>
