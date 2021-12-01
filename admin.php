@@ -1,6 +1,7 @@
  <?php require_once "config.php"; ?>
  <html>
   <head>
+    <title>Pannel Admin</title>
     <link type="text/css" rel="stylesheet" href="css/admin.css">
   </head>
   <body>
