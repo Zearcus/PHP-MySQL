@@ -15,13 +15,13 @@
 
    foreach($data as $user){ ?>
    <div class="bloc_user">
-     <h2><?php echo $user['first_name']." ".$user['last_name'] ?></h2>
-     <span class="email"><?php echo $user['email']." - User_ id : ".$user['id'] ?></span>
+     <h2><?php echo "- ".$user['first_name']." ".$user['last_name'] ?></h2>
+     <span class="email"><?php echo "Email : ".$user['email']." - ID User : ".$user['id'] ?></span>
      <form action="delete.php" method="post">
         <input type="hidden" name="last_name" class="validate" value="<?php echo $user['last_name']; ?>">
-        <button type="submit" name="delete_btn"> delete </button>
+        <button type="submit" name="delete_btn">Delete</button>
       </form>
-   </div>
+   </Div>
    <?php } ?>
   </body>
 
