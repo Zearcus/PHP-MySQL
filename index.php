@@ -40,7 +40,7 @@
              </div>
            </div>
 
-           <form class="row">
+           <form class="row" action="home.php" method="post">
              <div class="col s4 l2 offset-s1">
                <a class="modal-trigger" href="#screamer1" id="screamerboutton1"><img src="pictures/Presentation/Fabien.png" alt="Portfolio image Fabien" width="100%"></a>
                <div id="screamer1" class="modal screamer">
