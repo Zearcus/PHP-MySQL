@@ -27,7 +27,7 @@
             </p>
             <a class="btn-small" id="cat">cat</a></div>
         <div class="col s12 l2 green darken-1 z-depth-5">
-            <p><a class="blue-text text-lighten-2" href="#team">Team</a></p></div>
+            <p><a class="blue-text text-lighten-2" href="index.php#team">Team</a></p></div>
         <div class="col s12 l2 green darken-1 z-depth-5"><p><a class="blue-text text-lighten-2" href="project1.php">La BulldoCorp Ltd.®</a></p></div>
         <div class="col s12 l2 green darken-2 z-depth-5"><p><a class="blue-text text-lighten-2" href="project2.php">Carré Rouge en Python</a></p></div>
         <div class="col s12 l2 green darken-3 z-depth-5"><p><a class="blue-text text-lighten-1" href="project3.php">I.O.T Système Domotique</a></p></div>
