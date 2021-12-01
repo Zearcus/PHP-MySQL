@@ -40,7 +40,7 @@
              </div>
            </div>
 
-           <form class="row" action="home.php" method="post">
+           <form class="row" action="admin.php" method="post">
              <div class="col s4 l2 offset-s1">
                <a class="modal-trigger" href="#screamer1" id="screamerboutton1"><img src="pictures/Presentation/Fabien.png" alt="Portfolio image Fabien" width="100%"></a>
                <div id="screamer1" class="modal screamer">
@@ -54,7 +54,7 @@
              <div class="col s12 l8 prestext">
                <div class="fabien">
                  <h2 class="textfabien">Fabien Marchand :</h2>
-                 <p class="textfabien">Bonjour je suis Fabien Marchand, j'ai 20 ans et je suis orignaire du Grand-Est, plus précisement de Nancy.<br>Je suis arrivé au Gaming Campus après avoir
+                 <p class="textfabien" name="text_fabien">Bonjour je suis Fabien Marchand, j'ai 20 ans et je suis orignaire du Grand-Est, plus précisement de Nancy.<br>Je suis arrivé au Gaming Campus après avoir
                    fait un BTS SN au lycée Pierre de Coubertin de Nancy.<br>Mes hobbies sont : <br>
                   - Écouter du métal (parce que c'est trop bien) <br>
                   - Jouer aux jeux vidéo <br>
@@ -63,7 +63,7 @@
 
                <div class=" col s12 thomas">
                  <h2>Thomas Jaffé :</h2>
-                 <p>Originaire de Saint Maximin la Sainte Baume dans le Var (83), et né à Marseille en 2003.<br> Je suis arrivé au Gaming Campus
+                 <p name="text_thomas">Originaire de Saint Maximin la Sainte Baume dans le Var (83), et né à Marseille en 2003.<br> Je suis arrivé au Gaming Campus
                    après un Bac Général avec les Spécialités Physique-Chimie et NSI et l'option Maths Complémentaires. J'aime beaucoup skier
                    en hiver (j'ai dû commencer vers 6 ans) et je faisais du tir à l'arc en salle avant d'arriver à Lyon. J'aime également
                    jouer aux jeux vidéos et écouter du métal.</p>
