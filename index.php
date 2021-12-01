@@ -19,12 +19,12 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-       
+
       <?php require_once "menu.php" ?>
 
 
      <div class="row title_1">
-        <h1 class="col s12 m12 l12"> ~ Portfolio ~</h1>
+        <h1 class="col s12 m12 l12" id="#team"> ~ Portfolio ~</h1>
      </div>
 
 
