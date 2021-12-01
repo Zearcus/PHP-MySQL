@@ -2,7 +2,7 @@
 <?php
 require_once "config.php";
 
-    $sql = "DELETE FROM 'user' WHERE last_name =".$_POST['last_name'];
+    $sql = "DELETE FROM 'user' WHERE id =".$_POST['id'];
     $pre = $pdo->prepare($sql); 
     $pre->execute();
 
