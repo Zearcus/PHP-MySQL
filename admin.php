@@ -31,11 +31,11 @@
 
       ?>
       <div class="bloc_home">
-      <h2>page d'acceuil :</h2>
+      <h2>Page d'acceuil :</h2>
 
-      
+
       </div>
-    
+
 
 
   </body>
