@@ -2,9 +2,7 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>
-                project 1
-            </title>
+            <title>La BulldoCorp Ltd.®</title>
             <meta charset="utf-8">
             <!--Import Google Icon Font-->
             <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

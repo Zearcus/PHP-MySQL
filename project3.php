@@ -2,7 +2,7 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <title>Portfolio</title>
+            <title>I.O.T Système Domotique</title>
             <meta charset="utf-8">
             <meta name="description" content="We will present you our Portfolio " />
             <!--Import Google Icon Font-->
