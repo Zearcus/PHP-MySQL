@@ -54,19 +54,32 @@
              <div class="col s12 l8 prestext">
                <div class="fabien">
                  <h2 class="textfabien">Fabien Marchand :</h2>
-                 <p class="textfabien" name="text_fabien">Bonjour je suis Fabien Marchand, j'ai 20 ans et je suis orignaire du Grand-Est, plus précisement de Nancy.<br>Je suis arrivé au Gaming Campus après avoir
-                   fait un BTS SN au lycée Pierre de Coubertin de Nancy.<br>Mes hobbies sont : <br>
-                  - Écouter du métal (parce que c'est trop bien) <br>
-                  - Jouer aux jeux vidéo <br>
-                  - Dormir (parce que flémmarder toute la journée c'est pas mal aussi :) </p>
+                 <p class="textfabien" name="text_fabien">
+                   <?php 
+                    $sql = "SELECT text_all FROM picturestext WHERE id='1' ";
+                    $pre = $pdo->prepare($sql); 
+                    $pre->execute();
+                    $data = $pre->fetchAll(PDO::FETCH_ASSOC);
+
+                  foreach($data as $picturestext){ ?>
+                    <?php echo $picturestext['text_all']; ?>
+                  <?php } ?>
+                 </p>
                </div>
 
                <div class=" col s12 thomas">
                  <h2>Thomas Jaffé :</h2>
-                 <p name="text_thomas">Originaire de Saint Maximin la Sainte Baume dans le Var (83), et né à Marseille en 2003.<br> Je suis arrivé au Gaming Campus
-                   après un Bac Général avec les Spécialités Physique-Chimie et NSI et l'option Maths Complémentaires. J'aime beaucoup skier
-                   en hiver (j'ai dû commencer vers 6 ans) et je faisais du tir à l'arc en salle avant d'arriver à Lyon. J'aime également
-                   jouer aux jeux vidéos et écouter du métal.</p>
+                 <p name="text_thomas">
+                  <?php 
+                    $sql = "SELECT text_all FROM picturestext WHERE id='2' ";
+                    $pre = $pdo->prepare($sql); 
+                    $pre->execute();
+                    $data = $pre->fetchAll(PDO::FETCH_ASSOC);
+
+                  foreach($data as $picturestext){ ?>
+                    <?php echo $picturestext['text_all']; ?>
+                  <?php } ?>
+                  </p>
                </div>
              </div>
 

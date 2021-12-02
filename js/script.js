@@ -67,3 +67,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     M.updateTextFields();
 });
+
+// textarea
+$('#textarea1').val('New Text');
+M.textareaAutoResize($('#textarea1'));

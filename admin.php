@@ -23,19 +23,27 @@
       </form>
    </Div>
    <?php } ?>
+
+   <h2>Page d'accueil : </h2>
     <?php
       $sql = "SELECT * FROM picturestext";
       $pre = $pdo->prepare($sql);
       $pre->execute();
       $data = $pre->fetchAll(PDO::FETCH_ASSOC);
-
-      ?>
-      <div class="bloc_home">
-      <h2>page d'acceuil :</h2>
-        <p><?php echo $_POST['text_jsp'] ?></p>
-
+      
+      foreach($data as $picturestext){ ?>
+      <div class="input-field bloc_home">
+      
+      <form action="update_text.php" method="post">
+        <span> text de l'id : <?php echo $picturestext['id']; ?></span>
+        <p> <?php echo $picturestext['text_all']; ?> </p>
+        <input type="hidden" name="id" class="validate" value="<?php echo $picturestext['id']; ?>">
+        <input type="text" name="text_home" class="validate" value="<?php  $picturestext['text_all'] ?>">
+        <button type="submit" name="update_btn"> update </button>
+      
+      </form>
       </div>
-
+    <?php } ?>
 
 
   </body>
