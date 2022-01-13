@@ -1,9 +1,9 @@
-#update text.php
+#update password.php
 
 <?php
 require_once "config.php";
 
-$sql = "UPDATE picturestext SET text_all = '".$_POST['text_home']."' WHERE id=" . $_POST['id'];
+$sql = "UPDATE user SET password = '".$_POST['text_password']."' WHERE id=" . $_POST['id'];
 $pre = $pdo->prepare($sql);
 $pre->execute();
 
